@@ -11,9 +11,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
     <title>M.Mohkamkar</title>
   </head>
   <body>
+<div class="container-fluid">
 <!-- Navbar -->
     <nav class="navbar navbar-default navbar-expand-lg">
       <div class="container-fluid">
@@ -31,7 +34,7 @@
     </nav>
 
 <!--Main Page Content-->  
-<div class="container-container-fluid">
+<div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 text-center">
       <h2>Michael Mohkamkar</h2>
@@ -40,16 +43,20 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-6 text-center">
-      <h3>News</h3>
+    <div class="col-lg-4 text-center">
+      <h3>About Me</h3>
       <p>text col 1</p>
     </div>
-    <div class="col-lg-6 text-center">
-      <h3>About Me</h3>
+    <div class="col-lg-4 text-center">
+      <h3>News</h3>
       <p>text col 2</p>
+    </div>
+    <div class="col-lg-4 text-center">
+      <h3>Projects</h3>
+      <p>text col 3</p>
     </div>
   </div>
 </div>
-
+</div>
   </body>
 </html>
