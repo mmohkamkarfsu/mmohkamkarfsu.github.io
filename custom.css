@@ -1,0 +1,9 @@
+.nav-item {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+.vcenter {
+	position: absolute;
+	top: 15%;
+}
