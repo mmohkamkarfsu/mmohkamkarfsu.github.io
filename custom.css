@@ -1,9 +1,20 @@
+.name{
+     font-size: 4vw;
+}
+
 .nav-item {
 	padding-left: .5em;
 	padding-right: .5em;
 }
 
-.vcenter {
-	position: absolute;
-	top: 15%;
+.profile {
+        width: 30%;
+        margin: 2%;
+        border-radius: 5%;
+}
+
+
+.resume {
+        background-color: black;
+        color: white;
 }
